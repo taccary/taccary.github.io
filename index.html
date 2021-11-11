@@ -3,89 +3,44 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="profile" href="http://gmpg.org/xfn/11" />
-		<title>Ecole de musique de Clapiers</title>
-	
+		<meta name="author" content=""> <!-- completez la balise meta en indiquant votre nom -->
+
 		<style>
 			/* code css ici */
+			/*
+			les titres des sections doivent être centrés, avec un fond de couleur #6495ed et un espacement interne de 10px
 			
-			body {
-				width:800px;
-				margin: auto;
-			}
+			les titres des articles sont en police taille 18, en texte de couleur #6495ed et centrés
 			
-			h1 {
-				text-align:center;
-				background-color:#6495ed;
-				padding: 10px;
-			}
-			h2 {
-				color: #6495ed;
-				font-size:18;
-				text-align:center;
-			}
+			le pied de page doit avoir son texte centré
 			
-			.box {
-				display: flex;
-				justify-content:space-between;
-			}
-			#illustration {
-				border: solid;
-				margin: 10px;
-				width: 350px;
-				float:left;
-			}
 			
-			#textepresentation {
-				border: dashed;
-				padding: 10px;
-			}
 			
-			table {
-				border-collapse: collapse;
-				border: solid #6495ed;
-			}
-			th {
-				background-color: #D0E3FA;
-				text-align: center;
-			}
-			td {
-				background-color: #ffffff;
-				border: thin solid #6495ed;
-			}
+			*/
 			
-			footer {
-				text-align:center;
-				background-color:lightgrey;
-				padding:10px;
-			}
-			article {
-				margin-left:10px;
-				margin-right:10px;
-				text-align:justify;
-			}
 		</style>
 	</head>
 
 
 	<body>
 		<header id="top">
-			<img src="logo1600.png" width="100%" alt="Ecole de musique" />
+			<!-- ajouter image du logo -->
 		</header>				
 
 		<nav>
+		<!-- ajouter des liens hypertexte vers les sections -->	
 			<ul>
 				<li>
-					<a class="nav-link" href="#presentation">Présentation</a>
+					Présentation</a>
 				</li>
 				<li>
-					<a class="nav-link" href="#news">Actualites</a>
+					Actualites
 				</li>
 				<li>
-					<a class="nav-link" href="#tarifs">Tarifs 2021</a>
+					Tarifs 2021
 				</li>
 				<li>
-					<a class="nav-link" href="#contact">Nous contacter</a>
+					Nous contacter
 				</li>
 			</ul>
 		</nav>
@@ -93,38 +48,33 @@
 		<section id="presentation">
 			<h1>Notre école <a href="#top">&uarr;</a></h1>
 			<div id="textepresentation">
-					<p>
-					<img id="illustration" src="presentation.jpg" alt="image d'instruments" />
-					L’école de musique municipale de la ville de D. dispense des cours d’instruments individuels ou collectifs pour enfants, adolescents et adultes, en fonction des places disponibles.</p>
-					Consultez notre planning et nos tarifs pour voir quels cours pourraient vous interesser. </p>
-					<br/>
-					<p>La <b>marche à suivre ensuite pour vous inscrire</b> est la suivante : 
-					<ol>
-						<li>
-							<u>Télécharger le dossier d'inscription</u> sur notre site pour réunir les piéces demandées lors de l'inscription.
-						</li>
-						<li>
-							<u>Nous contacter</u> pour savoir s'il reste des places dans ce cours :
-							<ul>
-								<li>
-									Soit par mail à <a href="mailto:contact@ecolemusique.fr">contact@ecolemusique.fr</a>.
-								</li>
-								<li>Soit par téléphone au <i>06 00 00 00 00</i>.
-								</li>
-								<li>Soit en venant directement au secrétariat aux horaires des cours.
-								</li>
-							</ul>
-						</li>
-						<li>
-							Une fois que vous avez eu la confirmation de la reservation de votre place au cours, nous <u>envoyer ou déposer au secrétariat le dossier d'inscription complet</u>.
-						</li>
-					</ul>
-					</p>
+				<p>
+				<!-- le bloc doit avoir une bordure pointillée et un espacement interne de 10px -->
+				<!-- ajouter image de la présentation avec une bordure noire, une larguer de 350 pixels, une marge de 10 pixels -->
+				<!-- le texte doit flotter à droite de l'image -->
+				<!-- ajouter les mises en forme des textes en gras, souligné et italique les textes-->
+				<!-- organiser le texte avec les listes à puces numérotées et non numérotées -->
+				<!-- ajouter un lien de mail pour l'adresse mail -->
+				
+				L’école de musique municipale de la ville de D. dispense des cours d’instruments individuels ou collectifs pour enfants, adolescents et adultes, en fonction des places disponibles.</p>
+				Consultez notre planning et nos tarifs pour voir quels cours pourraient vous interesser. </p>
+				<br/>
+				<p>La marche à suivre ensuite pour vous inscrire est la suivante : 
+				Télécharger le dossier d'inscription sur notre site pour réunir les piéces demandées lors de l'inscription.
+					Nous contacter pour savoir s'il reste des places dans ce cours :
+						
+								Soit par mail à contact@ecolemusique.fr.
+							Soit par téléphone au 06 00 00 00 00.
+							Soit en venant directement au secrétariat aux horaires des cours.
+						Une fois que vous avez eu la confirmation de la reservation de votre place au cours, nous envoyer ou déposer au secrétariat le dossier d'inscription complet.
+				</p>
 			</div>
 		</section>
 			
 		<section id="news" >
 			<h1>Dernières actualités <a href="#top">&uarr;</a></h1>
+			<!-- les 3 articles doivent être alignés en flexbox. -->
+			<!-- Chaque article doit avoir une marge à gauche et à droute de 10 pixels  et le texte doit être justifié -->
 			<div class="box">
 				<article class="article">
 					<h2>Concert de fin d'année</h2>
@@ -144,38 +94,28 @@
 			
 		<section id="tarifs">
 			<h1>Nos tarifs 2021 <a href="#top">&uarr;</a></h1>
-			<table>
-				<thead>
-					<tr>
-						<th>Cours</th>
-						<th>Tarifs annuels pour les habitants de la commune (hors adhésion)</th>
-						<th>Tarifs annuels pour les autres inscrits (hors adhésion)</th>
-					</tr>
-				</thead>
-				<tbody >
-					<tr>
-						<td>Instrument 30 minutes / sem</td><td>490 euros</td><td>530 euros</td>
-					</tr>
-					<tr>
-						<td >Instrument 45 minutes / sem</td><td class="column-2">655 euros</td><td class="column-3">705 euros</td>
-					</tr>
-					<tr>
-						<td >Instrument 1 heure / sem</td><td class="column-2">970 euros</td><td class="column-3">1050 euros</td>
-					</tr>
-					<tr>
-						<td ><a href="" />Initiation musical (0-3 ans), éveil musical (3-5 ans) ou éveil instrumental (CP-CE1)</a></td><td class="column-2">260 euros</td><td class="column-3">300 euros</td>
-					</tr>
-					<tr>
-						<td >Chorale (à partir du CP)</td><td rowspan="2">Gratuit pour les élèves inscrits en instrument ou 110 euros pour les élèves non inscrits en instrument</td><td rowspan="2">Gratuit pour les élèves inscrits en instrument ou 150 euros pour les élèves non inscrits en instrument</td>
-					</tr>
-					<tr>
-						<td >Formation musicale (enfants et adultes)</td>
-					</tr>
-					<tr>
-						<td ><a href="" />Atelier New Orleans</a> (1h30 par semaine, à partir de 14 ans et 2 années de pratique ou 1 an sur audition)</td><td>300 euros pour les adultes. 190 euros pour les moins de 18 ans.</td><td >350 euros pour les adultes. 190 euros pour les moins de 18 ans.</td>
-					</tr>
-				</tbody>
-			</table>
+			
+			<!-- mettre les informations dans un tableau avec une bordure de couleur #6495ed -->
+			<!-- les cellules ont une bordure fine de couleur #6495ed  -->
+			<!-- les entetes de colonnes ont un fond de couleur #D0E3FA et un texte centré -->
+			<!-- les cellules des tarifs pour la chorale et la formation musicale doivent être fusionnées -->
+			<!-- l'atelier new orleans doit pointer (lien hypertexte) vers le site de https://fr.wikipedia.org/wiki/Jazz_Nouvelle-Orl%C3%A9ans en ouvrant le lien dans une nouvelle fenetre du navigateur -->
+
+			
+			<!-- entetes des colonnes -->
+			Cours
+			Tarifs annuels pour les habitants de la commune (hors adhésion)
+			Tarifs annuels pour les autres inscrits (hors adhésion)
+			
+			<!-- données du tableau -->
+			Instrument 30 minutes / sem			490 euros		530 euros
+			Instrument 45 minutes / sem			655 euros		705 euros
+			Instrument 1 heure / sem			970 euros		1050 euros
+			Initiation musical (0-3 ans), éveil musical (3-5 ans) ou éveil instrumental (CP-CE1)		260 euros		300 euros
+			Chorale (à partir du CP)			Gratuit pour les élèves inscrits en instrument ou 110 euros pour les élèves non inscrits en instrument			Gratuit pour les élèves inscrits en instrument ou 150 euros pour les élèves non inscrits en instrument
+			Formation musicale (enfants et adultes) 			Gratuit pour les élèves inscrits en instrument ou 110 euros pour les élèves non inscrits en instrument			Gratuit pour les élèves inscrits en instrument ou 150 euros pour les élèves non inscrits en instrument
+			Atelier New Orleans (1h30 par semaine, à partir de 14 ans et 2 années de pratique ou 1 an sur audition)		300 euros pour les adultes. 190 euros pour les moins de 18 ans.			350 euros pour les adultes. 190 euros pour les moins de 18 ans.
+			
 		</section>
 			
 			
@@ -183,63 +123,38 @@
 		<section id="contact">
 			<h1 >Nous contacter <a href="#top">&uarr;</a></h1>
 			
-			<form action="" method="">
-				<p>Si vous souhaitez nous contacter, vous pouvez nous appeler aux horaires des cours au <i>06 00 00 00 00</i>.
-				<br/>
-				Vous pouvez également nous contacter au travers du formulaire ci-dessous :</p>
+			<p>Si vous souhaitez nous contacter, vous pouvez nous appeler aux horaires des cours au 06 00 00 00 00.
+			<!-- ajouter un saut de ligne -->
+			Vous pouvez également nous contacter au travers du formulaire ci-dessous :</p>
 			
-				<div>
-					<label id="labelident" for="ident">Qui êtes-vous ?</label>
-					<input name="ident" id="ident" type="text" placeholder="Prénom NOM" value="" required>   
-				</div>
+			<form action="" method="">
+				<!-- completez le formulaire contenant les questions suivantes -->
+				Qui êtes-vous ? <!-- réponse attendue de type texte et obligatoire. le champ texte contient l'exemple "Prénom NOM" -->
+
+
+				Etes vous déjà inscrit à l'école	oui		non  <!-- question à choix unique -->
+
+
+				Quel service voulez vous contacter ? <!-- liste déroulante -->
+				<!-- Valeurs de la liste déroulante : -->
+				Comptabilité
+				Secrétariat
+				Equipe pédagogique
+				Autres
 				
-				<div>
-					<label id="labelinscrit" for="inscrit">Etes vous déjà inscrit à l'école</label>
-					<input type="radio" id="inscrit" name="inscrit" value="oui"> <label for="inscrit">Oui</label>
-					<input type="radio" id="inscrit" name="inscrit" value="non"> <label for="inscrit">Non</label>
-				</div>
-		
-				<div>
-					<label id="labelstatut" for="statut" >Quel service voulez vous contacter ?</label>
-					<select name="statut" id="statut" aria-describedby="labelstatut">
-						<option value="Particulier" >Comptabilité</option>
-						<option value="Entreprise" >Secrétariat</option>
-						<option value="Comité d'entreprise (CE)" >Equipe pédagogique</option>
-						<option value="Autres" >Autres</option>
-					</select>  
-				</div>
+				<!-- saut de ligne et ligne continue -->
 				
-				<div>
-						<label id="labelmsg" for="msg" >Votre message :</label>
-						<textarea name="msg" id="msg" placeholder="Votre message..." rows="5" required></textarea>
-				</div>
+				Votre message : <!-- réponse attendue de type zone de texte sur 5 lignes et 8s0 colonnes. le champ contient l'exemple "Votre message..." -->
 				
-				<br/>
-				<hr/>
+				<!-- ajoutez un style "attention" pour que ce texte soit en italique et de couleur rouge -->
+				<p>Si vous n'êtes pas déjà inscrits à l'école, laissez-nous vos coordonnées dans le message pour être recontactés rapidement</p>
 				
-				<div>
-					<label id="labelPrefContact" for="prefContact" >Preferez-vous qu'on vous recontacte par : </label>
-					<input type="checkbox" id="prefContact" name="prefContact" value="mail">
-					<label for="prefContact">Mail</label>
-					<input type="checkbox" id="prefContact" name="prefContact" value="tel">
-					<label for="prefContact">Téléphone</label>
-					<input type="checkbox" id="prefContact" name="prefContact" value="courrier">
-					<label for="prefContact">courrier</label>
-				</div>
+				Preferez-vous qu'on vous recontacte :  : <!-- question à choix multiples -->
+				<!-- Valeurs du choix multiple : -->
+				Le matin
+				L'aprés-midi
+				En début de soirée
 				
-				<p>Pour être recontactés rapidement, laissez-nous vos coordonnées (facultatives)</p>
-				<div>
-					<label id="labelemail" for="email" >Votre adresse de courriel :</label>
-					<input name="email" id="email" type="text" class="form-control" placeholder="Adresse de courriel" value="">
-				</div>
-				<div>
-					<label id="labeltel" for="tel" class="col-form-label mr-2">Votre numéro de téléphone :</label>
-					<input name="tel" id="tel" type="text" class="form-control" placeholder="0601020304 ou +33601020304" value="">
-				</div>
-								<div>
-					<label id="labelemail" for="email" >Votre adresse de courriel :</label>
-					<input name="email" id="email" type="text" class="form-control" placeholder="Adresse de courriel" value="">
-				</div>
 				<div >
 					<button type="submit" >Envoyer</button>
 				</div>
@@ -250,7 +165,8 @@
 		
 
 	<footer>
-		<div>Copyright &copy; 2021 <a href="https://ecolesmusique.fr" title="Ecole de musique" ><span>Ecole de musique</span></a>. All rights reserved.</div>
+		<!-- le texte "Ecole de musique" doit pointer vers le site de l'école de musique https://ecolesmusique.fr -->
+		<div>Copyright &copy; 2021 Ecole de musique. All rights reserved.</div>
 	</footer>
 		
 		
